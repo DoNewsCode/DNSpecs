@@ -35,9 +35,11 @@ TODO: Add long description of the pod here.
   
   s.vendored_frameworks = 'Frameworks/*.framework'
   
-  s.resource_bundles = {
-      'DNStatisticSDKLib' => ['Resources/DNStatisticSDK.bundle']
-  }
+  s.resources = "Resources/DNStatisticSDK.bundle"
+  
+  #s.resource_bundles = {
+  #    'DNStatisticSDKLib' => ['Resources/DNStatisticSDK.bundle']
+  #}
   
   # s.public_header_files = 'Pod/Classes/**/*.h'
   # s.frameworks = 'UIKit', 'MapKit'
